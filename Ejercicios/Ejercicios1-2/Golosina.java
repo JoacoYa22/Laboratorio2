@@ -23,6 +23,6 @@ public class Golosina {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Golosina that = (Golosina) obj;
-        return nombre.equals(that.nombre) && peso.equals;
+        return nombre.equals(that.nombre) && Double.compare(peso,that.peso)==0;
     }
 }
