@@ -13,9 +13,7 @@ public class Bolsa < T > implements Iterable < T > {
             throw new RuntimeException("no cabe mas");
         }
     }
-    public int exist(T elemento){
-
-    }
+    
     public Iterator < T > iterator() {
         return lista.iterator();
     }
