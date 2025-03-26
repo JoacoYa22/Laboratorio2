@@ -1,0 +1,14 @@
+public class Caja <T>{
+    private String color;
+    private T objeto;
+
+    public Caja(String color, T objeto){
+        this.color=color;
+        this.objeto=objeto;
+    }
+
+    public String getColor(){return color;}
+    public T getObjeto(){return objeto;}
+    public void setColor(String color){this.color=color;}
+    public void setObjeto(T objeto){this.objeto=objeto;}
+}
